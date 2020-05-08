@@ -1,0 +1,70 @@
+
+body {
+    margin-top:25px;
+    background:lightgray;
+    text-align:center;
+}
+#form_wrapper{
+    background:pink;
+    width:280px;
+    height:100%;
+    margin:0 auto;
+    padding:10px 0 0 0;
+    box-shadow: 0 15px 20px rgb(0, 0, 0.3); 
+    border-width:1px ;
+    border-radius:0 15px 0 15px;
+}
+#form_wrapper > #items{
+    Padding:10px;
+}
+
+#form_wrapper > #items > #round ,img{
+    background:url("avatar.jpg");
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin:0 auto;
+   
+}
+#form_wrapper h2{
+    text-align:center;
+    color:red;
+}
+#form_wrapper #form input[placeholder]{
+    padding-left:5px;
+}
+blockquote{
+    margin-top:5px;
+    background:yellow;
+}
+#form_wrapper #form Input[type]{
+     width:220px;
+     height:30px;
+     border:1px solid black;
+     border-radius:5px;
+     
+    
+}
+
+#form_wrapper #form Input[value="Submit"]{
+    color:white;
+    background:red;
+    border:none;
+    
+}
+/*Input[value="Submit"]:hover{
+    background:lightpink;
+
+}*/
+
+#orange{
+    color: orange;
+    font-size: 30px;
+}
+#yellow{
+    color: yellow;
+    font-size: 30px;
+
+}
+
+
